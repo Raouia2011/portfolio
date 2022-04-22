@@ -8,16 +8,31 @@
     <title>Raouia Portfolio</title>
   </head>
   <body>
-    <header>
+    <header id="burgerOn">
       <h1 class="logo">Rania<span>Web</span></h1>
-      <div class="burger-menu">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <a title="link" href="#burgerOn">
+        <div class="burgerBtn burger-menu">
+          <div></div>
+          <div></div>
+          <div></div></div
+      ></a>
+
+      <a title="link" class="burgerOff" href="#">
+        <div class="burgerOff burger-menu">
+          <div></div>
+          <div></div>
+          <div></div></div
+      ></a>
+
+      <ul class="burgerList">
+        <li><a href="/home.html">Home</a></li>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/contact.html"> contact</a></li>
+      </ul>
+
       <nav>
         <ul>
-          <li><a href="/home.html">home</a> </li>
+          <li><a href="/home.html">home</a></li>
           <li><a href="/about.html">about</a></li>
           <li><a href="/contact.html"> contact</a></li>
         </ul>
@@ -25,36 +40,38 @@
     </header>
     <main>
       <section class="container">
-          <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1 class="logo">Raouia <span>Mhamdi</span></h1>
-            <h3>I'am a Web Developer.</h3>
-          </div>
-          <div class="mailing">
-            <form action="https://formspree.io/f/mdoblynv" method="POST">
-              <input
-                type="email"
-                name="email"
-                id="mail"
-                placeholder="Enter Your Email"
-              />
-              <input type="submit" name="submit" value="Lets Start" />
-            </form>
-          </div>
+        <div class="content">
+          <h4>Hello, my name is</h4>
+          <h1 class="logo">Raouia <span>Mhamdi</span></h1>
+          <h3>I'am a Web Developer.</h3>
+        </div>
+        <div class="mailing">
+          <form action="https://formspree.io/f/mdoblynv" method="POST">
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Your Email"
+            />
+            <input type="submit" name="submit" value="Lets Start" />
+          </form>
+        </div>
       </section>
       <section class="about">
         <div class="main">
-          <img src="/images/programming.png"  alt=""/>
+          <img src="/images/programming.png" alt="" />
           <div class="about-text">
             <h2>About Me</h2>
             <h5>Developer <span>& Designer</span></h5>
             <p>
               I am a front-end web developer. I can provide clean code and pixel
-              perfect design. I also make the website more & more interactive with
-              web animations. A responsive design makes your website accessible to
-              all users, regardless of their device.
+              perfect design. I also make the website more & more interactive
+              with web animations. A responsive design makes your website
+              accessible to all users, regardless of their device.
             </p>
-            <button type="button">Let's Talk</button>
+            <button class="lets">
+              <a title="link to Contact Information" href="./contact.html"> Let's Talk</a>
+            </button>
           </div>
         </div>
       </section>
@@ -62,20 +79,21 @@
         <div class="title">
           <h2>Our Services</h2>
         </div>
-  
+
         <div class="box">
+        
           <div class="card">
             <i class="fas fa-bars"></i>
             <h5>Web Development</h5>
             <div class="pra">
               <p>
-                Every website should be built with two primary goals: Firstly, it
-                needs to work across all devices. Secondly, it needs to be fast as
-                possible.
+                Every website should be built with two primary goals: Firstly,
+                it needs to work across all devices. Secondly, it needs to be
+                fast as possible.
               </p>
-  
-              <p>  
-                 <a class="button" href="#">Read More</a>
+
+              <p>
+                <a class="button" href="#">Read More</a>
               </p>
             </div>
           </div>
@@ -84,62 +102,74 @@
             <h5>Web Development</h5>
             <div class="pra">
               <p>
-                In simple and transparent steps, we create a website for your business that sets you apart from any competition.
-
-                In times like these, it is very important to be well positioned digitally. We create websites that are guaranteed to work and be found.
+                In simple and transparent steps, we create a website for your
+                business that sets you apart from any competition. In times like
+                these, it is very important to be well positioned digitally. We
+                create websites that are guaranteed to work and be found.
               </p>
-  
-              <p >
+
+              <p>
                 <a class="button" href="#">Read More</a>
               </p>
             </div>
           </div>
-  
+
+
           <div class="card">
             <i class="far fa-bell"></i>
             <h5>Web Development</h5>
             <div class="pra">
-              <ul type="disc">
-               <li> fast and uncomplicated creation</li>
-               <li>Unique design suitable for the respective industry
-              </li>
-               <li>including data protection and imprint
-              </li>
-               <li>professional advertising images and texts</li>
-               <li>Support even after handover
-              </li>
-               <li>optimized for any type of device (smartphone, laptop, tablet,...)</li>
-               <li>
-                Observance of all legal aspects
-               </li>
-               <li>Attention to SEO</li>
-               <li>Support to promote the website</li>
-              </ul>
+         
+                <p>fast and uncomplicated creation</p>
+                <p>Unique design suitable for the respective industry</p>
+                <p>including data protection and imprint</p>
+                <p>professional advertising images and texts</p>
+                div class="card">
+                <p>
+                  <a class="button" href="#">Read More</a>
+                </p>
+              </div>
+            </div>
   
-              <p >
+  <div class="card">
+                <i class="far fa-bell"></i>
+                <h5>Web Development</h5>
+                <div class="pra">
+               
+                <p>Support even after handover</p>
+                <p>
+                  optimized for any type of device (smartphone, laptop,
+                  tablet,...)
+                </p>
+                <p>Observance of all legal aspects</p>
+                <p>Attention to SEO</p>
+                <p>Support to promote the website</p>
+              
+
+              <p>
                 <a class="button" href="#">Read More</a>
               </p>
             </div>
-          </div>
+       
         </div>
       </div>
-  
-     
+    
       <div class="contact-me">
         <p>Let Me Get You A Beautiful Website.</p>
         <a class="button-two" href="#">Hire Me</a>
       </div>
-  
-     
+
       <footer>
         <div class="social">
-          <a href="https://www.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fprivacy%2Fconsent%2Fuser_cookie_choice%2F%3Fsource%3Dpft_user_cookie_choice">
+          <a
+            title="Link to Facebook"
+            href="https://de-de.facebook.com/" >
             <i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-dribbble"></i></a>
+          <a title="link to instagram" href="#"><i class="fab fa-instagram"></i></a>
+          <a title="link to web" href="#"><i class="fab fa-dribbble"></i></a>
         </div>
         <p>CopyRight By Raouia Mhamdi</p>
-      </footer> 
+      </footer>
     </main>
   </body>
 </html>

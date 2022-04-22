@@ -1,73 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
     <title>Document</title>
-</head>
-<body>
-    <header>
-         <h1 class="logo">Rania<span>Web</span></h1>
-        <div class="burger-menu">
+  </head>
+  <body>
+    <header id="burgerOn">
+      <h1 class="logo">Rania<span>Web</span></h1>
+      <a title="link" href="#burgerOn">
+        <div class="burgerBtn burger-menu">
           <div></div>
           <div></div>
+          <div></div></div
+      ></a>
+
+      <a title="link" class="burgerOff" href="#">
+        <div class="burgerOff burger-menu">
           <div></div>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="/home.html">home</a> </li>
-            <li><a href="/about.html">about</a></li>
-            <li><a href="/contact.html"> contact</a></li>
-          </ul>
-        </nav>
+          <div></div>
+          <div></div></div
+      ></a>
+
+      <ul class="burgerList">
+        <li><a href="/home.html">home</a></li>
+        <li><a href="/about.html">about</a></li>
+        <li><a href="/contact.html"> contact</a></li>
+      </ul>
+
+      <nav>
+        <ul>
+          <li>b<a href="/home.html">home</a></li>
+          <li><a href="/about.html">about</a></li>
+          <li><a href="/contact.html"> contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
 
-<div class="container">
-    <form action="/action_page.php">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="Germany">Germany</option>
-        <option value="Tunisia">Tunisia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-  
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Please let me your message ..."></textarea>
-  
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-  <section>
-      <p>You can visit us :</p>
-      <a href="https://www.google.com/maps/place/Dannenwalder+Weg+172,+13439+Berlin/@52.5924781,13.3587641,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8530833075a5d:0x81772229781ee957!8m2!3d52.5924781!4d13.3609528?hl=de"><img src="/images/Screenshot from 2022-04-16 21-12-37.png " width="300px" alt=""></a>
- 
-  <div class="contact">
-      <p>You can call us :<i class="fa-solid fa-square-phone"></i> </p><a href="tel:01575253421">Tel: 01575253421</a>
-      <p>Our email is<i class="fa-solid fa-envelope"></i></p><a href="rawiamhamdi@yahoo.fr">rawiamhamdi@yahoo.fr</a>
-  </div>
-  
-</section>
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Germany">Germany</option>
+            <option value="Tunisia">Tunisia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Please let me your message ..."
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <section class="cont-2">
+        <p class="txt">
+          <span>Y</span>
+          <span>o</span>
+          <span>u</span>
+          <span>c </span>
+          <span>a</span>
+          <span>n</span>
+          <span>v</span>
+          <span>i</span>
+          <span>s</span>
+          <span>i</span>
+          <span>t</span>
+          <span> u</span>
+          <span>s</span>
+          <span>:</span>
+        </p>
+        <a
+          title="link to yahoo mail"
+          href="https://www.google.com/maps/place/Dannenwalder+Weg+172,+13439+Berlin/@52.5924781,13.3587641,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8530833075a5d:0x81772229781ee957!8m2!3d52.5924781!4d13.3609528?hl=de"
+          ><img
+            src="/images/Screenshot from 2022-04-16 21-12-37.png "
+            width="300px"
+            alt=""
+        /></a>
+
+        <div class="contact">
+          <p class="tel"><a href="tel:01575253421">Tel: 01575253421</a></p>
+          <p class="email">
+            <a
+              href="https://login.yahoo.com/manage_account?pspid=159600001&activity=mail-direct&.lang=fr-FR&.intl=fr&src=ym&signin=true&done=https%3A%2F%2Fmail.yahoo.com%2Fd&eid=100"
+              >rawiamhamdi@yahoo.fr</a
+            >
+          </p>
+        </div>
+        <div class="circle">
+          <h1 class="logo">Rania<span>Web</span></h1>
+        </div>
+      </section>
     </main>
     <footer>
-         <div class="social">
-        <a href="https://www.facebook.com/index.php?next=https%3A%2F%2Fwww.facebook.com%2Fprivacy%2Fconsent%2Fuser_cookie_choice%2F%3Fsource%3Dpft_user_cookie_choice">
-          <i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-dribbble"></i></a>
+      <div class="social">
+        <a title="link to facebook" href="https://de-de.facebook.com/">
+          <i class="fab fa-facebook-f"></i
+        ></a>
+        <a title="link to instagram" href="#"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a title="link to page" href="#"><i class="fab fa-dribbble"></i></a>
       </div>
       <p>CopyRight By Raouia Mhamdi</p>
     </footer>
-    
-</body>
+  </body>
 </html>
