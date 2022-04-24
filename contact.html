@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="contact.css" />
-    <title>Document</title>
+ 
+    <script src="main.js"></script>
+    <title>RaniaWeb</title>
   </head>
   <body>
     <header id="burgerOn">
@@ -33,13 +35,14 @@
 
       <nav>
         <ul>
-          <li>b<a href="/home.html">home</a></li>
+          <li><a href="/home.html">home</a></li>
           <li><a href="/about.html">about</a></li>
           <li><a href="/contact.html"> contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <section class="home-container">
       <div class="container">
         <form action="/action_page.php">
           <label for="fname">First Name</label>
@@ -93,14 +96,11 @@
           <span>s</span>
           <span>:</span>
         </p>
-        <a
-          title="link to yahoo mail"
+        <div class="address"><a
+          title="link to Address"
           href="https://www.google.com/maps/place/Dannenwalder+Weg+172,+13439+Berlin/@52.5924781,13.3587641,17z/data=!3m1!4b1!4m5!3m4!1s0x47a8530833075a5d:0x81772229781ee957!8m2!3d52.5924781!4d13.3609528?hl=de"
-          ><img
-            src="/images/Screenshot from 2022-04-16 21-12-37.png "
-            width="300px"
-            alt=""
-        /></a>
+          ><i class="fa-solid fa-map-location-dot"></i>
+        <p>we have open evry day from 08 to 18</p></a></div>
 
         <div class="contact">
           <p class="tel"><a href="tel:01575253421">Tel: 01575253421</a></p>
@@ -111,10 +111,14 @@
             >
           </p>
         </div>
-        <div class="circle">
-          <h1 class="logo">Rania<span>Web</span></h1>
-        </div>
+       
       </section>
+
+   <div class="wrapper">
+    <div id="calendar"></div>
+    <div id="calendar_data"></div>
+  </div>
+  </section>
     </main>
     <footer>
       <div class="social">
@@ -128,5 +132,6 @@
       </div>
       <p>CopyRight By Raouia Mhamdi</p>
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
