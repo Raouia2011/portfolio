@@ -1,0 +1,72 @@
+.information{
+    background-color: rgb(32 30 30 / 51%);
+    color: black;
+    padding:30px;
+    padding-left: 20%;
+    height: max-content;
+}
+
+li {font-size: large;}
+h4{
+    color: brown;
+}
+a{
+    color: blue;
+}
+a:hover{transform: scale(1.1);
+color: darkblue;}
+
+
+ .sidebar h1{
+    font-size: 18px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow: auto;
+    z-index: 1;
+    
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: rgb(169, 52, 52);
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  
+ /*  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+        float: none;
+    }
+  } */

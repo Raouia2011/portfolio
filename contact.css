@@ -6,7 +6,7 @@ header {
   left: 0;
   z-index: 1;
 }
-
+/*********************************''''###########BurgerMenu START#################***************************************************************** */
 .burgerOff {
   display: none;
 }
@@ -65,7 +65,7 @@ a:hover {
 #burgerOn:target {
   flex-wrap: wrap;
 }
-
+/*********************************''''###########BurgerMenu END##################***************************************************************** */
 main {
   background-color: #746e6e;
   padding-top: 120px;
@@ -96,7 +96,7 @@ input[type="submit"]:hover {
   background-color: #04aa6d;
 }
 
-.container,
+.container1,
 .cont-2, .wrapper{
   width: 400px;
   height: 500px;
@@ -107,10 +107,11 @@ input[type="submit"]:hover {
   box-shadow: 8px 10px 15px 7px #9c9999;
   animation: slit-in-vertical 0.45s ease-out both;
 }
-section img {
-  box-shadow: 8px 10px 15px 7px #928f8f;
-  border: 5px solid rgba(38, 40, 42, 0.82);
-  border-radius: 30px;
+.mother{
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
 }
 .contact {
   width: 100%;
@@ -263,6 +264,58 @@ section {
   margin: 60px;
 }
 
+.start{
+  width: 100%;
+  padding: 30px;
+}
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+}
+legend{
+  color: #3f0618;
+  border: 2px solid #f9004d;
+}
+legend a {
+  color:darkblue;
+}
+legend a:hover {
+  color: #f9004d;
+}
+input [type=checkbox] {
+  height: 30px;
+  width: 30px;
+}
+input:checked {
+  height: 50px;
+  width: 50px;
+ 
+}
+.user-info #cadna:last-of-type::before{font: var(--fa-font-solid);
+  content: "\f13e";
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  background: #f9004d;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+
+}
+#cadna{
+  text-align: center;
+}
+#cadna:hover{
+  background: linear-gradient(to right,red,green,darkgreen);
+  color: white;
+  border-radius: 8px;
+}
 @keyframes slit-in-vertical {
   0% {
     -webkit-transform: translateZ(-800px) rotateY(90deg);
